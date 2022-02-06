@@ -53,7 +53,7 @@ A lógica da arquitetura de software base se divide em duas vertentes. A fim de 
 A seguir tem-se duas imagens da arquitetura de Scicobot 1, como exemplo. A primeira, descreve as bibliotecas dos componentes:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/30325754/152667223-04b6043d-3e95-44d3-bc4d-6ad573ccf9cd.png"/>
+  <img src="https://github.com/SciCoBot/guia-scicobot/blob/main/images/topologia_bibliotecas_sensores.png?raw=true"/>
 </p>
 
 E a segunda, as bibliotecas referentes ao middleware, que nada mais é do que uma impelmentação de micro-R0S-arduino:
@@ -62,11 +62,7 @@ E a segunda, as bibliotecas referentes ao middleware, que nada mais é do que um
   <img src="https://user-images.githubusercontent.com/30325754/152667228-b227ccd9-c0b9-48ee-ba50-929ed0f9bb27.png"/>
 </p>
 
-Dessa forma, é possivel
-
-Aqui ainda há muito o que melhorar, apesar e funcional, acredito, ainda, que haja uma estrutura mais fácil de trabalhar. Por isso ainda quero melhorar muitas coisas nessa parte, então, façam sugestões. 
-
-
+Nota: aqui ainda há muito o que melhorar, apesar e funcional, acredito, ainda, que haja uma estrutura mais fácil de trabalhar. Por isso ainda quero melhorar muitas coisas nessa parte, então, façam sugestões. 
 
 ## Scicobot 1
 
