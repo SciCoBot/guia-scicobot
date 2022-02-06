@@ -71,3 +71,5 @@ Este é o Scicobot 1, um prototipo físico inicial, criado para avaliar a estrut
 <p align="center">
   <img src="https://github.com/SciCoBot/guia-scicobot/blob/main/images/scicobot_real.png?raw=true"/>
 </p>
+
+Como pode-se perceber das imagens de spoiler nas sessões anteriores, Scicobot 1 possui os seguintes componentes: 
