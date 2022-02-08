@@ -62,14 +62,25 @@ E a segunda, as bibliotecas referentes ao middleware, que nada mais é do que um
   <img src="https://user-images.githubusercontent.com/30325754/152667228-b227ccd9-c0b9-48ee-ba50-929ed0f9bb27.png"/>
 </p>
 
+Dessa forma, se há pretenções em editar a arquitetura com a adição de um componente, como por exemplo um IMU, tem-se, seguindo a arquitetura, duas novas bibliotecas:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/30325754/152892953-67ad1957-87a2-4c7a-8afa-41766b9609b5.png"/>
+</p>
+
 Nota: aqui ainda há muito o que melhorar, apesar e funcional, acredito, ainda, que haja uma estrutura mais fácil de trabalhar. Por isso ainda quero melhorar muitas coisas nessa parte, então, façam sugestões. 
 
 ## Scicobot 1
 
-Este é o Scicobot 1, um prototipo físico inicial, criado para avaliar a estrutura de código desenvolvida, a partir de ferramentas como: ROS 2, micro-ROS-arduino
+Este é o Scicobot 1, um prototipo físico inicial, criado para avaliar a estrutura de código desenvolvida
 
 <p align="center">
   <img src="https://github.com/SciCoBot/guia-scicobot/blob/main/images/scicobot_real.png?raw=true"/>
 </p>
 
-Como pode-se perceber das imagens de spoiler nas sessões anteriores, Scicobot 1 possui os seguintes componentes: 
+O Scicobot 1 possui [esses componentes](), sendo os principais:
+- 
+
+
+A arquitetura de software já foi apresentada nas sessões anteriores, como forma de exemplificar. N
+
