@@ -102,14 +102,16 @@ Depois, tem-se as [bibliotecas que implementam ros 2 foxy a partir de micro_ros_
 
 Para facilitar a atualização e gerenciamento dessas biblioteas foram criados dois sistemas de construição, um para o lado do [Raspberry](https://github.com/SciCoBot/build_scicobot_rasp) e outro para o [Arduino](https://github.com/SciCoBot/build_scicobot_arduino).
 
-### Scicobot 1 - Começo Rápido e simples
+### Scicobot 1 - Começo Rápido
 
-Vamos carregar um programa simples para exemplificar:
+Vamos carregar um programa para controlar o movimento de nosso robô.
+
 - No Computador de desenvolvimento:
   - [construa os pacotes arduino](https://github.com/SciCoBot/build_scicobot_arduino);
   - Carregue no Arduino o exemplo [moveTwist de scicobot_arduino](https://github.com/SciCoBot/scicobot_arduino/blob/main/examples/moveTwist/moveTwist.ino).
-- NO Raspberry:
+- No Raspberry:
   -  Execute o pacote ROS 2 teleop_twist_keyboard com:
   ```
   ros2 run teleop_twist_keyboard teleop_twist_keyboard 
   ```
+Para mais exemplo leia as documentações de [scicobot_rasp](https://github.com/SciCoBot/scicobot_rasp) e [scicobot_arduino](https://github.com/SciCoBot/scicobot_arduino).
