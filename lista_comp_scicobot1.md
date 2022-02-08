@@ -16,7 +16,7 @@ A seguir tem-se os componentes utilizado para construição de Scicobot 1. Como 
 
 - [Conversor De Nivel Lógico](https://produto.mercadolivre.com.br/MLB-2137980175-conversor-de-nivel-logico-i2c-4-canais-bidirecional-5v-33v-_JM#position=4&search_layout=grid&type=item&tracking_id=f5617508-7ff5-4a73-b90c-cdd3fff418c7)
 
-- [Motor drive](https://produto.mercadolivre.com.br/MLB-1347081199-driver-shield-ponte-h-dupla-l298n-motor-dc-arduino-pic-_JM#position=4&search_layout=grid&type=item&tracking_id=a8dd798f-cc6b-4027-91d3-8af32e57cc7a)
+- [Motor drive](https://produto.mercadolivre.com.br/MLB-1795687148-ponte-h-dupla-modulo-l9110-motor-p-arduino-pic-arm-_JM?matt_tool=40343894&matt_word=&matt_source=google&matt_campaign_id=14303413655&matt_ad_group_id=125984293117&matt_match_type=&matt_network=g&matt_device=c&matt_creative=539354956680&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=503295934&matt_product_id=MLB1795687148&matt_product_partition_id=1404886571418&matt_target_id=aud-1008379684294:pla-1404886571418&gclid=CjwKCAiAo4OQBhBBEiwA5KWu_7ag5hEktcxsbalCYbrOV8mLrCYoqDkWN7t9HjjhtnZOLp_oRZDfZBoCLxQQAvD_BwE)
 
 - [Regulador de Tensão Step Down DC AMS1117](https://pt.aliexpress.com/item/1005001572666295.html?spm=a2g0o.productlist.0.0.8fc6286duJV137&algo_pvid=d2ee26e3-1eba-4a2c-984b-77c8e576f6a7&algo_exp_id=d2ee26e3-1eba-4a2c-984b-77c8e576f6a7-21&pdp_ext_f=%7B%22sku_id%22%3A%2212000016636580726%22%7D&pdp_pi=-1%3B2.45%3B-1%3B-1%40salePrice%3BBRL%3Bsearch-mainSearch)
 
