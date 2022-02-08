@@ -65,7 +65,7 @@ E a segunda, as bibliotecas referentes ao middleware, que nada mais é do que um
 Dessa forma, se há pretenções em editar a arquitetura com a adição de um componente, como por exemplo um IMU, tem-se, seguindo a arquitetura, duas novas bibliotecas:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/30325754/152892953-67ad1957-87a2-4c7a-8afa-41766b9609b5.png"/>
+  <img src="https://github.com/SciCoBot/guia-scicobot/blob/main/images/software_add_componente.jpg?raw=true"/>
 </p>
 
 Nota: aqui ainda há muito o que melhorar, apesar e funcional, acredito, ainda, que haja uma estrutura mais fácil de trabalhar. Por isso ainda quero melhorar muitas coisas nessa parte, então, façam sugestões. 
