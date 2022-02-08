@@ -78,9 +78,40 @@ Este é o Scicobot 1, um prototipo físico inicial, criado para avaliar a estrut
   <img src="https://github.com/SciCoBot/guia-scicobot/blob/main/images/scicobot_real.png?raw=true"/>
 </p>
 
-O Scicobot 1 possui [esses componentes](), sendo os principais:
-- 
+O Scicobot 1 possui [esses componentes](https://github.com/SciCoBot/guia-scicobot/blob/6f94b2dd166d61949662b6283b4d75830c70d16f/lista_comp_scicobot1.md).
 
+E sua arquitetura de software já foi apresentada nas sessões anteriores, como forma de exemplificar a estrutura de código escolhida.
 
-A arquitetura de software já foi apresentada nas sessões anteriores, como forma de exemplificar. N
+### Scicobot 1 - Projetos
 
+As bibliotecas de Scicobot 1 estão dispostas em diversos respositórios, de forma a possibilitar a utilização apenas daquelas que se pretente utilizar, evitando sobrecarga.
+
+As primeiras [bibliotecas são as reponsáveis por realizar as leituras dos sensores e atuar no motor](https://github.com/SciCoBot/guia-scicobot/blob/main/images/topologia_bibliotecas_sensores.png?raw=true):
+- [serial_debug](https://github.com/SciCoBot/serial_debug);
+- [led_debug](https://github.com/SciCoBot/led_debug);
+- [differential_drive](https://github.com/SciCoBot/differential_drive);
+- [encoder](https://github.com/SciCoBot/encoder);
+- [ultrasonic](https://github.com/SciCoBot/ultrasonic);
+- [motor_control](https://github.com/SciCoBot/motor_control).
+
+Depois, tem-se as [bibliotecas que implementam ros 2 foxy a partir de micro_ros_arduino para cada parte de Scicobot 1](https://github.com/SciCoBot/guia-scicobot/blob/main/images/topologia_bibliotecas_microROS.png?raw=true):
+- [ros_init](https://github.com/SciCoBot/ros_init);
+- [ros_encoder](https://github.com/SciCoBot/ros_encoder);
+- [ros_motor_control](https://github.com/SciCoBot/ros_motor_control);
+- [ros_ultrasonic](https://github.com/SciCoBot/ros_ultrasonic).
+
+Para facilitar a atualização e gerenciamento dessas biblioteas foram criados dois sistemas de construição, um para o lado do [Raspberry](https://github.com/SciCoBot/build_scicobot_rasp) e outro para o [Arduino](https://github.com/SciCoBot/build_scicobot_arduino).
+
+### Scicobot 1 - Começo Rápido
+
+Vamos carregar um programa para controlar o movimento de nosso robô.
+
+- No Computador de desenvolvimento:
+  - [construa os pacotes arduino](https://github.com/SciCoBot/build_scicobot_arduino);
+  - Carregue no Arduino o exemplo [moveTwist de scicobot_arduino](https://github.com/SciCoBot/scicobot_arduino/blob/main/examples/moveTwist/moveTwist.ino).
+- No Raspberry:
+  -  Execute o pacote ROS 2 teleop_twist_keyboard com:
+  ```
+  ros2 run teleop_twist_keyboard teleop_twist_keyboard 
+  ```
+Para mais exemplo leia as documentações de [scicobot_rasp](https://github.com/SciCoBot/scicobot_rasp) e [scicobot_arduino](https://github.com/SciCoBot/scicobot_arduino).
