@@ -15,4 +15,4 @@ curl https://raw.githubusercontent.com/micro-ROS/micro_ros_arduino/galactic/extr
 ```
 Sendo *username* o nome do usuário no sistema. Aqui é importante salientar que podem haver diferenças, o caminho ARDUINO_PATH nem sempre vai ser nesse formato, mas deve ser algo parecido.
 
-- 
+- É altamente recomendável para iniciantes a implementação dos exemplos [micro-ros publisher](https://github.com/micro-ROS/micro_ros_arduino/tree/galactic/examples/micro-ros_publisher) e [micro-ros subscriber](https://github.com/micro-ROS/micro_ros_arduino/tree/galactic/examples/micro-ros_subscriber)
