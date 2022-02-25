@@ -8,7 +8,7 @@ Neste arquivo estarão o passo a passo utilizado por @OtaviodaCruz para configur
   - login: ubuntu 
   - senha: ubuntu
 
-## Imagem
+## Imagem Ubuntu Server
 
 - [Raspberry Pi Imager](https://www.raspberrypi.com/software/);
 - Baixar ubuntu server 20.04 arm64 (64 bits);
