@@ -47,3 +47,8 @@ sudo apt update && sudo apt install -y \
   python3-vcstool \
   wget
 ```
+## Micro-ROS
+
+- [Aqui](https://micro.ros.org/docs/tutorials/core/teensy_with_arduino/) tem um bom tutorial, onde a parte do agente micro-ROS pode ser seguida para o Raspberry.
+
+
