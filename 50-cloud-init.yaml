@@ -1,0 +1,14 @@
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    eth0:
+      dhcp4: true
+      optional: true
+  wifis:
+    wlan0:
+      optional: true
+      access-points:
+        "nomeRedeWi-Fi":
+           password: "senhaRedeWi-Fi"
+      dhcp4: true
