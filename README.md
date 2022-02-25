@@ -7,10 +7,11 @@
 ## Conteúdo
 
 - [Sobre](#sobre)
-- [Comandos Básicos](#comandos-básicos)
-- [Modo de Usar](#modo-de-usar)
-- [Como Utilizar](#como-utilizar)
-- [Implementaçõs Futuras](#implementaçõs-futuras)
+- [Hardware Base](#hardware-base)
+- [Arquitetura de Software ](#arquitetura-de-software )
+- [Scicobot 1](#scicobot-1)
+- [Resumo](#resumo)
+- [Disclaimer](#disclaimer)
 
 ## Sobre
 
@@ -44,7 +45,7 @@ Além disso, eu diria, ainda, que o cabo TTL é um componente de suma importânc
   <img src="https://user-images.githubusercontent.com/30325754/152667165-77a39467-b0da-4e57-9f75-6846f6769b11.png"/>
 </p>
 
-## Arquitetura/Organização Base de Software 
+## Arquitetura de Software 
 
 Quero salienta que o principal aqui é a arquitetura proposta, ela pode nãos ser tão ótimizada, mas para aqueles que pretendem implementar uma versão de Scicobot é importante que se atentem a forma de implementação, já que, idealmente, a estrutura dos demais robôs devem se manter. Isso irá facilitar o entendimento de terceirto, a documentação e o reuso.
 
@@ -115,6 +116,20 @@ Vamos carregar um programa para controlar o movimento de nosso robô.
   ros2 run teleop_twist_keyboard teleop_twist_keyboard 
   ```
 Para mais exemplo leia as documentações de [scicobot_rasp](https://github.com/SciCoBot/scicobot_rasp) e [scicobot_arduino](https://github.com/SciCoBot/scicobot_arduino).
+
+## Resumo
+
+Em resumo a arquitetura básica possui a nível de hardware:
+- Arduino Due;
+- Raspbery Pi 3B+;
+- Cabo TTL;
+- Chassi com Rodas.
+
+E a nível de software, tem-se:
+- micro_ros_arduino foxy;
+- ROS 2 fozy;
+
+Toda a adição de hardware e software prevista utiliza essa base.
 
 # Disclaimer
 
