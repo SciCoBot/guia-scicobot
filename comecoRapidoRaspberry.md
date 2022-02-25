@@ -47,6 +47,10 @@ sudo apt update && sudo apt install -y \
   python3-vcstool \
   wget
 ```
+- Para iniciar um ambiente de trabalho ros, execute:
+```
+source /opt/ros/foxy/setup.bash
+```
 ## Micro-ROS
 
 - [Aqui](https://micro.ros.org/docs/tutorials/core/teensy_with_arduino/) tem um bom tutorial, onde a parte do agente micro-ROS pode ser seguida para o Raspberry.
