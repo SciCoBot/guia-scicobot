@@ -1,11 +1,11 @@
-# 
+# Começo Rápido Raspberry Pi
 
 Neste arquivo estarão o passo a passo utilizado por @OtaviodaCruz para configuração do ambiente Rapsberry Pi.
 
 ## Login
 
 - Login padrão ubuntu server após instalação:
-  - login:ubuntu 
+  - login: ubuntu 
   - senha: ubuntu
 
 ## Imagem
@@ -28,6 +28,22 @@ A partir daqui, é utilizada uma comunicação SSH com o raspberry por um comput
 - sudo apt autoremove
 - sudo apt upgrade
 
-## Instalar ROS 2
+## Instalação ROS 2
 
-
+- Há algumas formas de instalar, foi utilizada a [instalação via pacotes debian](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html). Onde em "Install ROS 2 packages" é utilizado o ROS-Base.
+- Pode ser que o rosdep não seja instalado utilizando esse tipo de instalação. Para resolver esse poblema pode ser feita a instalação manual, como  é feita [aqui](https://docs.ros.org/en/foxy/Installation/Ubuntu-Development-Setup.html):
+```
+sudo apt update && sudo apt install -y \
+  build-essential \
+  cmake \
+  git \
+  libbullet-dev \
+  python3-colcon-common-extensions \
+  python3-flake8 \
+  python3-pip \
+  python3-pytest-cov \
+  python3-rosdep \
+  python3-setuptools \
+  python3-vcstool \
+  wget
+```
