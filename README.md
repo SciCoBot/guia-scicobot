@@ -139,9 +139,7 @@ Scicobot utiliza a MIT License, escolhida dada sua alta permissividade, que incl
 
 ## Cite-me
 
-Scicobot é um trabalho de conclusão de curso, que pode ser acesso [aqui](https://repositorio.ufu.br/handle/123456789/34172). Onde tem-se uma boa descrição geral da plataforma, além de descrições do desenvolvimento. 
-Você pode citar este trabalho como: 
-
+Scicobot é um trabalho de conclusão de curso que pode ser acesso [aqui](https://repositorio.ufu.br/handle/123456789/34172). Onde tem-se uma boa descrição geral da plataforma e do desenvolvimento. Você pode citar este trabalho como: 
 
 >CRUZ, Otávio Augusto Rocha da. Desenvolvimento de um Robô Móvel Open Source Baseado em ROS 2 para Pesquisa em Robótica Cooperativa. 2022. 98 f. Trabalho de Conclusão de Curso >(Graduação em Engenharia Eletrônica e de Telecomunicações) – Universidade Federal de Uberlândia, Patos de Minas, 2022.
 >URI: https://repositorio.ufu.br/handle/123456789/34172
