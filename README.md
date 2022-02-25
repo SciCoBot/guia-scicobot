@@ -115,3 +115,7 @@ Vamos carregar um programa para controlar o movimento de nosso robô.
   ros2 run teleop_twist_keyboard teleop_twist_keyboard 
   ```
 Para mais exemplo leia as documentações de [scicobot_rasp](https://github.com/SciCoBot/scicobot_rasp) e [scicobot_arduino](https://github.com/SciCoBot/scicobot_arduino).
+
+# Disclaimer
+
+**Este projeto pode conter bugs. Use por sua conta e risco, mas fique à vontade para testar, fazer pull request e melhorar este projeto.**
