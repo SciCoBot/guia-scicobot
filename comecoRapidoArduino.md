@@ -1,11 +1,16 @@
+# Começo Rápido Arduino
+
+Tem-se aqui a descrição de algumas procedimentos importantes do lado do Arduino Due.
 
 ## Arduino IDE
+
 - baixar e instalar o [arduino IDE](https://www.arduino.cc/en/software);
 - instalar o suporte para a placa arduino DUE;
 
 ## micro_ros_arduino
-- Siga o tutorial de (https://github.com/micro-ROS/micro_ros_arduino), começando por "How to use the precompiled library";
-  - Obs.: Baixe versão micro_ros_arduino conforme ROS instalado (como o foxy): https://github.com/micro-ROS/micro_ros_arduino/releases
+
+- Siga [este tutorial](https://github.com/micro-ROS/micro_ros_arduino), começando por "How to use the precompiled library";
+  - Obs.: Baixe versão micro_ros_arduino conforme [ROS instalado](https://github.com/micro-ROS/micro_ros_arduino/releases), como o foxy:
 - E, depois, "Patch Arduino board for support precompiled libraries", onde utilizei:
 
 ```
